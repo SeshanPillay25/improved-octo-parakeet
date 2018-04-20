@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href=" /Content/bootstrap.css" rel="stylesheet" />
+    <link href=" /Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <title>Index</title>
+    <style>
+        .btn a {color: white;text-decoration: none;}
+
+        body {background-color: #F1F1F1; font-family:'Product Sans'}
+
+        h2,h3{font-family:'Product Sans'}
+    </style>
+</head>
+<body>
+    <div>
+        
+        <div class="text-center">
+        <h2> We're going to have an exciting party</h2>
+        <h3>And you are invited !</h3>
+        <p>            
+            Date: 6 August 1991<br />
+            Venue: The Internet<br />
+            Time: Anytime<br />
+            Note: Bring memes
+
+        </p>
+            <div class="btn btn-success">
+             @Html.ActionLink("RSVP Now", "RsvpForm")
+            </div>
+         </div>
+    </div>
+</body>
+</html>

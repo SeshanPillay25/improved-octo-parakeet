@@ -1,4 +1,6 @@
 # improved-octo-parakeet
+[![GitHub issues](https://img.shields.io/github/issues/SeshanPillay25/improved-octo-parakeet.svg)](https://github.com/SeshanPillay25/improved-octo-parakeet/issues)
+
 Simple ASP.NET application that demonstrates data manipulation, and validation.
 
 .NET Framework 4.5.1; 
